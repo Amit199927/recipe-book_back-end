@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const ShoppingList = require('./models/shopping-list');
+const Recepielist = require('./models/recepie-list');
 const app = express();
 const bodyparser = require('body-parser');
 
