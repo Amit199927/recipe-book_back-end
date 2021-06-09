@@ -14,4 +14,4 @@ const RecepieSchema = new Schema({
 
 });
 
-module.exports = mongoose.model('Recepielist', RecipeSchema);
+module.exports = mongoose.model('Recepielist', RecepieSchema);
